@@ -8,8 +8,10 @@
 # secondNumber = int(input("Give me a second number: "))
 # newNumber = number ** secondNumber
 # print(str(number) + " to the power of " + str(secondNumber) + " is " + str(newNumber) + ".")
-print("Let's calculate your BMI")
-kgWeight = float(input("How much do you weigh (in pounds)? ")) * 0.45359237
-mHeight = float(input("How tall are you in inches? ")) * 2.54 / 100
-bmi = int(kgWeight / (mHeight * mHeight))
-print("Your BMI is " + str(bmi) + ".")
+# print("Let's calculate your BMI")
+# kgWeight = float(input("How much do you weigh (in pounds)? ")) * 0.45359237
+# mHeight = float(input("How tall are you in inches? ")) * 2.54 / 100
+# bmi = round(kgWeight / (mHeight * mHeight), 1)
+# print("Your BMI is " + str(bmi) + ".")
+newNumber = int(input("Give me a number to halve and round down: "))  // 2
+print(f"The new number is {newNumber}")
