@@ -15,5 +15,13 @@
 # print("Your BMI is " + str(bmi) + ".")
 # newNumber = int(input("Give me a number to halve and round down: "))  // 2
 # print(f"The new number is {newNumber}")
-weeks = int(int(input("For how many years do you think you'll live? ")) * 52.17857)
-print(f"You can expect to live about  {weeks} weeks.")
+# weeks = int(int(input("For how many years do you think you'll live? ")) * 52.17857)
+# print(f"You can expect to live about  {weeks} weeks.")
+print("Welcome to the tip calculator")
+bill = float(input("What was the total bill? $"))
+tipPercent = float(input("What percentage tip would you like to give? "))
+people = float(input("How many people are splitting the bill? "))
+tip = tipPercent * bill / 100
+bill += tip
+perPersonBill = round(bill / people, 2)
+print(f"Each person should pay ${perPersonBill}.")
