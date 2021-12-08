@@ -13,5 +13,7 @@
 # mHeight = float(input("How tall are you in inches? ")) * 2.54 / 100
 # bmi = round(kgWeight / (mHeight * mHeight), 1)
 # print("Your BMI is " + str(bmi) + ".")
-newNumber = int(input("Give me a number to halve and round down: "))  // 2
-print(f"The new number is {newNumber}")
+# newNumber = int(input("Give me a number to halve and round down: "))  // 2
+# print(f"The new number is {newNumber}")
+weeks = int(int(input("For how many years do you think you'll live? ")) * 52.17857)
+print(f"You can expect to live about  {weeks} weeks.")
